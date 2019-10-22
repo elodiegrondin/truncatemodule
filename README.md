@@ -35,9 +35,6 @@ After you have added this, you will need to do:
  
  …from the project’s root directory, to rebuild the Composer autoload map. This will happen automatically any time you do a `composer install` or `composer update` as well.
 
-## Truncate Overview
-
--Insert text here-
 
 ## Using Truncate
 
