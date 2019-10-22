@@ -45,6 +45,9 @@ class TruncateModule extends Module {
     // ==============
 
     public function __construct($id, $parent = null, array $config = []) {
+      Craft::setAlias('@modules/truncatemodule', $this->getBasePath());
+      $this->controllerNamespace = 'modules\truncatemodule\controllers';
+      static::setInstance($this);
       parent::__construct($id, $parent, $config);
     }
 
